@@ -69,5 +69,7 @@ def format_file(fname):
     fh2.write(temp_.getvalue())
     fh2.close()
 
-
+## JordanSite.CLI is our input file name (output of the cligen run)
+## The output would be JordanSite_ref.CLI
+## The CLI extension is arbitrary, it could be .out or any extension we desire
 format_file('JordanSite.CLI')
