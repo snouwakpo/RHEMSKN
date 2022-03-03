@@ -16,6 +16,8 @@ elevation = '{:6d}'.format(730)
 header = "40250"+complete_to_max(name)+latitude+"  "+longitude+elevation+"\n"
 fhout = open('JordanSite.GDS', 'w')
 fhout.write(header)
+##The input file name is JordanSite.txt
+##And we want to output the JordanSite.GDS
 fhin = open('JordanSite.txt', 'r')
 #Reads header
 fhin.readline()
